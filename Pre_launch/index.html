@@ -1,0 +1,149 @@
+<!doctype html>
+
+<html> 
+    <head>
+      <meta http-equiv="Content Type" content='text/html';charset="utf-8">
+      <meta name='viewport' content='width=device-width,height=device-height,initial-scale=1,maximum
+scale=1,minimum-scale=1,user-scalable=no'>
+      <meta http-equiv="X-UA-compataible" content="IE-EDGE">
+      <!--links to css and fonts-->
+      <link rel="stylesheet" type= "text/css" href="css/framework.css">
+      <link rel="stylesheet" type= "text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type= "text/css" href="css/styles.css">
+      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    </head>
+     <body>
+    <div class='container fluid'>
+    <div class='row'>
+    <div class='col-md-12 border'>
+    <header id="header">
+    <h1>Web Ninja</h1>
+    </header>          
+    </div>
+    </div>
+    <div class='row'>
+    <div class='col-md-12 border'>
+    <nav id="nav">
+    <ul class="button-wrap">
+    <button>Schedule </button>
+    <button data-toggle="modal" data-target="#css3_modal">> CSS </button>
+    <button data-toggle="modal" data-target="#html5_modal"> HTML</button>
+    <button>Responsive Design</button>
+    </ul>
+    </nav>
+    </div>
+    </div>
+    <div class='row max-width'>
+    <div class='col-md-8 border'>
+    <div id='main-content-wrapper'>
+    <div class="row">
+    <section class="image-content col-md-6">
+    <img src="images/melody.jpeg"> 
+    <h4>
+    <a href="https:google.com/">Melody McDonald</a>
+    </h4>
+    </section>
+    <article>
+    <h2> Summary</h2>
+    <p>Always looking for a problem to solve and a site to build. Experience with many modern, web frameworks such as bootstrap, knockout.js, and masonry. Have a look at some of my work.  </p>  
+    </article>
+    </div>
+    <!-end side-by-side-!>
+    </div>
+    <!- end main-content-wrapper -!>
+    </div>
+    <!-end middle-wrapper-width-!>
+    <div class='col-md-4 border'>
+    <div id="aside-content-wrapper">
+    <aside id="aside-right">
+    <h3> latest Work</h3>
+    <ul id="latest-work">
+        <li> Project 1</li>
+        <li> Project 2</li>
+        <li> Project 3</li>
+        <li> Project 4</li>
+        <li> Project 5</li>
+        <li> Project 6</li>
+    </ul>
+    </aside>
+    </div>
+    <!-end aside-content-wrapper-!>
+    </div>
+    <!- end middle-wrapper -!>
+    </div>
+    <section id='skills' >
+     <h5>
+    SKILLS:<span>html |css | javascript | git </span>
+     </h5>
+    </section>
+    <div id="favorite-sites" class="row">
+    <div class= 'row'>
+    <div class="col-md-4 border"> 
+    <img class="img-responsive" src='images/google-plus.png'>
+    </div>
+    <div class="col-md-4 border">
+       <img class="img-responsive" src="images/twitter.png">
+    </div>
+    <div class="col-md-4 border">
+      <img class="img-responsive" src='images/facebook.png'>
+    </div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-12 border">
+    <footer><h1>Footy</h1></footer>
+    </div>
+    </div>
+    </div>        
+    <!-- end container-->
+    <!-- Modal-html5 -->
+<div class="modal fade" id="html5_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+      <img src="images/html5.png">
+      <br>
+      <p><strong>HTML5</strong> is the latest evolution of the standard that defines HTML. The term represents two different concepts: It is a new version of the language HTML, with new elements, attributes, and behaviors, and a larger set of technologies that allows more diverse and powerful Web sites and applications.</p>
+      <p>SOURCE:</p><span><a
+         href= "http://developer.mozilla.org/US/docs/Web/CSS/CSS3"> "http://developer.mozilla.org/US/docs/Web/CSS/ CSS3" </a> </span>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal-css3 -->
+<div class="modal fade" id="css3_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+      <div class="image-modal"><img src="images/css3.png"> 
+      </div>
+      <br>
+      <br>
+          <p> <strong> CSS3 </strong> is the evolution of the Cascading Style Sheets language and aims at the extending CSS2.1. It brings a lot of long-awaited novelties, like rounded corners shadows, gradients, trasitions or animations, as well as new layouts like multi-columns, flexiable box grid layouts.  </p>    <br>
+       <p> SOURCE:</p><span> <a
+        href= "http://developer.mozilla.org/US/docs/Web/CSS/CSS3"> "http://developer.mozilla.org/US/docs/Web/CSS/ CSS3" </a> </span>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="js/jquery.min.js"></script>
+    <script src='js/bootstrap.min.js'></script>
+    <script src='js/main.js'></script>
+    </body>
+    </html>
